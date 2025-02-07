@@ -1,0 +1,19 @@
+[project]
+name = "flask-exemple"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "flask>=3.1.0",
+    "gunicorn>=23.0.0",
+    "make>=0.1.6.post2",
+]
+
+[dependency-groups]
+dev = [
+    "flake8>=7.1.1",
+    "pytest>=8.3.4",
+    "pytest-coverage>=0.0",
+    "ruff>=0.9.4",
+]

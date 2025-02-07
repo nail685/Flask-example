@@ -1,0 +1,12 @@
+<form action="/users" method="get">
+    <input type="search" placeholder="Search name" name='query' value="{{ search }}" />
+    <input type="submit" value="Search" />
+  </form>
+<hr>
+<ul>
+    {% for name in names %}
+    <li>
+     {{name}}
+    </li>
+    {% endfor %}
+</li>

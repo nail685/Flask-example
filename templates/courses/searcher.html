@@ -1,0 +1,7 @@
+{% extends "courses/layout.html" %}
+{% block searcher %} 
+<form action="/courses" method="get">
+    <input type="search" name="query" value="{{ search }}" />
+    <input type="submit" value="Search" />
+  </form>
+{% endblock searcher %}
